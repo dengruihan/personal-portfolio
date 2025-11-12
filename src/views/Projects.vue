@@ -165,17 +165,28 @@ export default {
 .loading-spinner {
   width: 40px;
   height: 40px;
-  border: 3px solid #333333; /* 深灰色边框 */
-  border-top: 3px solid #ffffff; /* 白色旋转部分 */
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
+  position: relative;
   margin-bottom: 1rem;
+}
+
+.loading-spinner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  border: 3px solid #333333;
+  border-top-color: #ffffff;
+  animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
 
 .error, .no-projects {
   text-align: center;
