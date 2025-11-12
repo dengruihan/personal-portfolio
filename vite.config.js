@@ -8,6 +8,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   plugins: [
     vue(),
+    base: '/personal-portfolio/',
     vueDevTools(),
   ],
   resolve: {
