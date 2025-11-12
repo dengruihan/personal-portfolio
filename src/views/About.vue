@@ -37,7 +37,7 @@
       <div class="container">
         <div class="content-grid">
           <!-- Story Card -->
-          <div class="content-card story-card">
+          <div class="content-card story-card full-width">
             <div class="card-header">
               <div class="card-icon">📖</div>
               <h2>My Story</h2>
@@ -61,7 +61,7 @@
           </div>
 
           <!-- Goals Card -->
-          <div class="content-card goals-card">
+          <div class="content-card goals-card full-width">
             <div class="card-header">
               <div class="card-icon">🎯</div>
               <h2>My Goals</h2>
@@ -80,7 +80,7 @@
           </div>
 
           <!-- Interests Card -->
-          <div class="content-card interests-card">
+          <div class="content-card interests-card half-width">
             <div class="card-header">
               <div class="card-icon">🎨</div>
               <h2>Interests & Passions</h2>
@@ -105,7 +105,7 @@
           </div>
 
           <!-- Stats Card -->
-          <div class="content-card stats-card">
+          <div class="content-card stats-card half-width">
             <div class="card-header">
               <div class="card-icon">📊</div>
               <h2>Quick Stats</h2>
@@ -132,15 +132,11 @@
           <div class="contact-links">
             <a href="mailto:your.email@example.com" class="contact-link">
               <span class="contact-icon">📧</span>
-              <span>your.email@example.com</span>
+              <span>Raymond.dengruihan@yungu.org</span>
             </a>
-            <a href="https://github.com/yourusername" target="_blank" class="contact-link">
-              <span class="contact-icon">📦</span>
-              <span>github.com/yourusername</span>
-            </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-link">
-              <span class="contact-icon">💼</span>
-              <span>linkedin.com/in/yourprofile</span>
+            <a href="tel:+86 18368725059" class="contact-link">
+              <span class="contact-icon">📞</span>
+              <span>🇨🇳+86 18368725059</span>
             </a>
           </div>
         </div>
@@ -360,10 +356,18 @@ export default {
 
 .content-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.half-width {
+  grid-column: span 1;
 }
 
 .content-card {

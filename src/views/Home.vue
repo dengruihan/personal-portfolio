@@ -28,7 +28,7 @@
           
           <!-- 联系方式按钮 -->
           <div class="contact-buttons">
-            <a href="mailto:Raymond.dengruihan@gmail.com" class="contact-btn primary">
+            <a href="mailto:Raymond.dengruihan@yungu.org" class="contact-btn primary">
               <span class="btn-icon">📧</span>
               Email Me
             </a>

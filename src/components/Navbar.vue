@@ -43,7 +43,6 @@ export default {
       { name: 'Skills', path: '/skills' },
       { name: 'Projects', path: '/projects' },
       { name: 'Blog', path: '/blog' },
-      { name: 'Links', path: '/links' }
     ]
     
     const toggleMenu = () => {

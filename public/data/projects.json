@@ -1,77 +1,49 @@
 [
   {
     "id": 1,
-    "title": "E-Commerce Platform",
-    "introduction": "A full-stack e-commerce solution with modern UI and secure payment integration",
-    "image": "https://picsum.photos/seed/ecommerce/400/300.jpg",
-    "githubUrl": "https://github.com/yourusername/ecommerce-platform",
-    "liveDemoUrl": "https://ecommerce-demo.example.com",
+    "title": "GLM-Edge-V-2B Species Monitoring System",
+    "introduction": "An AI-powered egg cluster detection system for invasive Golden Apple Snail using multimodal large language model",
+    "image": "https://img01.71360.com/file/read/www2/M00/2A/81/wKj2K2L8sd2ASuLwAAFZi5VLq-E559.jpg",
+    "githubUrl": "https://github.com/dengruihan/GLM-Edge-V-2B--Monitoring_Species",
     "techStack": [
-      "Vue.js",
-      "Node.js",
-      "MongoDB",
-      "Stripe API"
+      "GLM-Edge-V-2B",
+      "Python",
+      "Computer Vision",
+      "Drone Imaging",
+      "Multimodal AI"
     ],
-    "details": "This is a comprehensive e-commerce platform built with Vue.js and Node.js. It features user authentication, product catalog, shopping cart, secure payment processing with Stripe, order management, and admin dashboard. The application uses RESTful APIs and implements responsive design for optimal mobile experience."
+    "details": "A comprehensive species monitoring system that utilizes the GLM-Edge-V-2B multimodal large language model to automatically detect Golden Apple Snail egg clusters from drone-captured images with over 90% accuracy. The system supports ecological monitoring staff in Hangzhou's scenic reserves by enabling rapid egg density assessments, improving conservation planning. Features include real-time image analysis, batch processing capabilities, and a user-friendly web interface for both technical and non-technical users."
   },
   {
     "id": 2,
-    "title": "Task Management App",
-    "introduction": "A collaborative task management tool with real-time updates and team features",
-    "image": "https://picsum.photos/seed/taskapp/400/300.jpg",
-    "githubUrl": "https://github.com/yourusername/task-manager",
-    "liveDemoUrl": "https://taskmanager-demo.example.com",
+    "title": "Color-Based Detection Algorithm",
+    "introduction": "A lightweight computer vision approach for rapid Golden Apple Snail egg identification",
+    "image": "https://picsum.photos/seed/color-detection/400/300.jpg",
+    "githubUrl": "https://github.com/dengruihan/GLM-Edge-V-2B--Monitoring_Species",
+    "liveDemoUrl": "https://www.goldenapplesnail.top",
     "techStack": [
-      "Vue.js",
-      "Firebase",
-      "Vuex",
-      "CSS3"
+      "OpenCV",
+      "Python",
+      "HSV Color Space",
+      "Image Processing",
+      "Computer Vision"
     ],
-    "details": "A real-time task management application that allows teams to collaborate efficiently. Features include drag-and-drop task organization, real-time updates, user authentication, project categorization, deadline tracking, and team member assignment. Built with Vue.js and Firebase for real-time database functionality."
+    "details": "An efficient color-based detection algorithm that identifies Golden Apple Snail eggs using HSV color range analysis. The system processes 5,000 images in just 2 seconds with approximately 75% accuracy. Features include adaptive color range selection for different lighting conditions, optimized pixel size thresholds, and mask calculation modules for precise egg counting. Ideal for rapid assessments in simple natural environments with minimal computational requirements."
   },
   {
     "id": 3,
-    "title": "Weather Dashboard",
-    "introduction": "A beautiful weather application with detailed forecasts and interactive maps",
-    "image": "https://picsum.photos/seed/weather/400/300.jpg",
-    "githubUrl": "https://github.com/yourusername/weather-dashboard",
-    "liveDemoUrl": "https://weather-demo.example.com",
+    "title": "Ecological Awareness Platform",
+    "introduction": "Community engagement and educational platform for invasive species awareness",
+    "image": "https://picsum.photos/seed/ecological-platform/400/300.jpg",
+    "githubUrl": "https://github.com/dengruihan/GLM-Edge-V-2B--Monitoring_Species",
+    "liveDemoUrl": "https://www.goldenapplesnail.top",
     "techStack": [
-      "Vue.js",
-      "OpenWeather API",
-      "Chart.js",
-      "Leaflet"
+      "Web Development",
+      "UI/UX Design",
+      "Mobile Responsive",
+      "Educational Content",
+      "Community Outreach"
     ],
-    "details": "An interactive weather dashboard that provides current conditions, 7-day forecasts, and historical weather data. Features include location search, interactive weather maps, temperature charts, severe weather alerts, and customizable widgets. Integrates with OpenWeather API for accurate weather data."
-  },
-  {
-    "id": 4,
-    "title": "Social Media Analytics",
-    "introduction": "Analytics dashboard for social media performance tracking and insights",
-    "image": "https://picsum.photos/seed/analytics/400/300.jpg",
-    "githubUrl": "https://github.com/yourusername/social-analytics",
-    "liveDemoUrl": "https://analytics-demo.example.com",
-    "techStack": [
-      "Vue.js",
-      "D3.js",
-      "Express",
-      "PostgreSQL"
-    ],
-    "details": "A comprehensive analytics platform for tracking social media performance across multiple platforms. Features include real-time data visualization, engagement metrics, audience demographics, content performance analysis, and automated reporting. Uses D3.js for interactive charts and graphs."
-  },
-  {
-    "id": 5,
-    "title": "Portfolio Generator",
-    "introduction": "A dynamic portfolio website generator with customizable templates",
-    "image": "https://picsum.photos/seed/portfolio/400/300.jpg",
-    "githubUrl": "https://github.com/yourusername/portfolio-generator",
-    "liveDemoUrl": "https://portfolio-gen-demo.example.com",
-    "techStack": [
-      "Vue.js",
-      "Nuxt.js",
-      "Sass",
-      "Netlify"
-    ],
-    "details": "A tool that allows users to create professional portfolio websites with no coding required. Features include drag-and-drop interface, multiple templates, SEO optimization, responsive design, and one-click deployment. Built with Nuxt.js for server-side rendering and optimal performance."
+    "details": "A comprehensive web platform that combines species detection technology with public education and community engagement. Features include user-friendly image upload interface, batch processing capabilities, educational content about invasive species, mobile-responsive design for field use, and cartoon-style illustrations to raise awareness. The platform has successfully engaged over 100 visitors during school open days and serves as a bridge between scientific research and public participation in ecological protection."
   }
 ]
