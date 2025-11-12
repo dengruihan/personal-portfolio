@@ -18,9 +18,8 @@
     "id": 2,
     "title": "Color-Based Detection Algorithm",
     "introduction": "A lightweight computer vision approach for rapid Golden Apple Snail egg identification",
-    "image": "https://picsum.photos/seed/color-detection/400/300.jpg",
+    "image": "https://ts1.tc.mm.bing.net/th/id/R-C.e7961a7961019bcd508e1fc1b20d8bad?rik=Z5tKPSVEaQBnrA&riu=http%3a%2f%2fexp-picture.cdn.bcebos.com%2f2e223d85e036e2918261c557b2723d03baea5b21.jpg%3fx-bce-process%3dimage%252Fcrop%252Cx_0%252Cy_0%252Cw_747%252Ch_434%252Fformat%252Cf_auto%252Fquality%252Cq_80&ehk=%2bzrEJuu5AX66yj83uAhbqxfxBd%2bC78t9FyDDI5e45ys%3d&risl=&pid=ImgRaw&r=0",
     "githubUrl": "https://github.com/dengruihan/GLM-Edge-V-2B--Monitoring_Species",
-    "liveDemoUrl": "https://www.goldenapplesnail.top",
     "techStack": [
       "OpenCV",
       "Python",
@@ -34,9 +33,8 @@
     "id": 3,
     "title": "Ecological Awareness Platform",
     "introduction": "Community engagement and educational platform for invasive species awareness",
-    "image": "https://picsum.photos/seed/ecological-platform/400/300.jpg",
+    "image": "https://ts3.tc.mm.bing.net/th/id/OIP-C.7H6lvXTzGJ0OjvW-3DzoHQHaFW?cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3",
     "githubUrl": "https://github.com/dengruihan/GLM-Edge-V-2B--Monitoring_Species",
-    "liveDemoUrl": "https://www.goldenapplesnail.top",
     "techStack": [
       "Web Development",
       "UI/UX Design",
