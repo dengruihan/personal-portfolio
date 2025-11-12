@@ -18,19 +18,40 @@ import { useRoute } from 'vue-router'
 export default {
   name: 'BlogDetail',
   setup() {
-    const post = ref(null)
-    const route = useRoute()
-
-    const fetchPost = async () => {
-      const id = route.params.id
+    const loadPost = async () => {
+      loading.value = true
+      error.value = null
+      post.value = null
+    
       try {
-        const response = await fetch(`${import.meta.env.BASE_URL}data/projects.json`)
-        const posts = await response.json()
-        post.value = posts.find(p => p.id === id)
-      } catch (error) {
-        console.error("Failed to load blog post:", error)
+        // 正确的写法：使用 BASE_URL 并指向正确的数据文件
+        const dataUrl = `${import.meta.env.BASE_URL}data/blog.json`
+        console.log('Fetching from:', dataUrl) // 保留这行用于调试
+    
+        const response = await fetch(dataUrl)
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`)
+        }
+        
+        const allPosts = await response.json()
+        const postId = route.params.id // 这是从 URL 获取的 ID，比如 "1"
+        
+        const foundPost = allPosts.find(p => p.id === postId) // 在数据中查找这个 ID
+        
+        if (!foundPost) {
+          throw new Error(`Post with ID "${postId}" not found`)
+        }
+        
+        post.value = foundPost
+    
+      } catch (err) {
+        console.error("Failed to load post:", err)
+        error.value = err.message
+      } finally {
+        loading.value = false
       }
     }
+
 
     onMounted(fetchPost)
     watch(() => route.params.id, fetchPost)
