@@ -23,7 +23,7 @@
               <p class="profile-title">Full Stack Developer</p>
               <div class="profile-badges">
                 <span class="badge">
-                  <img src="/icons/expert.svg" alt="AI Expert" class="badge-icon" />
+                  <img src="../icons/expert.svg" alt="AI Expert" class="badge-icon" />
                   AI Expert
                 </span>
                 <span class="badge">
