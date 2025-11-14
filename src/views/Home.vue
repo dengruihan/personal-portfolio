@@ -99,7 +99,7 @@
               </div>
               
               <div class="project-content">
-                <!-- 👇 修改点：项目标题现在是可点击的链接 -->
+                <!-- 项目标题现在是可点击的链接 -->
                 <router-link :to="`/projects/${project.id}`" class="project-title-link">
                   <h3>{{ project.title }}</h3>
                 </router-link>
@@ -147,7 +147,7 @@
                 <span class="blog-date">{{ post.date }}</span>
                 <span class="blog-reading-time">5 min read</span>
               </div>
-              <!-- 👇 修改点：博客标题现在是可点击的链接 -->
+              <!-- 博客标题现在是可点击的链接 -->
               <router-link :to="`/blog/${post.id}`" class="blog-title-link">
                 <h3>{{ post.title }}</h3>
               </router-link>
@@ -677,7 +677,7 @@ section {
   flex-direction: column;
 }
 
-/* 👇 新增/修改的样式：项目标题链接 */
+/* 项目标题链接 */
 .project-content .project-title-link {
   text-decoration: none;
   display: block;
@@ -787,7 +787,7 @@ section {
   font-size: 0.9rem;
 }
 
-/* 👇 新增/修改的样式：博客标题链接 */
+/* 博客标题链接 */
 .blog-post .blog-title-link {
   text-decoration: none;
   display: block;
