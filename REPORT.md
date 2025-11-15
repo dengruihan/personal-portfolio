@@ -25,19 +25,43 @@
     index.js: 定义所有路由规则，包括动态路由参数
 
 /public - 静态资源
+
     /data: JSON 数据文件
         about.json: about页面个人信息数据
         blog.json: 博客文章数据
         projects.json: 项目数据
         skills.json: 技能数据
+        <!-- 大部分信息都给可以在这里改 -->
+
     /icons: 网站图标资源
-        Bell.svg: 铃铛图标
-        gitHub.svg: GitHub图标
+        bell.svg: 铃铛图标
+        blog.svg: 博客图标
+        book.svg: 书籍图标
+        chart.svg: 图表图标
+        cloud.svg: 云计算图标
         email.svg: 邮件图标
+        expert.svg: 专家图标
+        eye.svg: 眼睛图标
+        gear.svg: 齿轮图标
+        gitHub.svg: GitHub图标
+        lightbulb.svg: 电灯泡图标
+        paint.svg: 颜料板图标
         phone.svg: 电话图标
-        Resume.svg: 简历图标
-        User.svg: 用户图标
-    avatar.jpg: 头像图片
+        project.svg: 方块图标，代表项目
+        robot.svg: 机器人图标
+        target.svg: 目标图标
+        web.svg: 因特网图标
+    avatar.jpg: 头像
     favicon.ico: vue自带，没用到
     github_logo.png: GitHub图标，一开始用的github的logo，后面改成github的svg图标
-    index.html: 本应该是vue自带的默认模板，但是一开始没有生成，后来手动创建的，尝试修改网页title的时候进行过修改，但是没有实际使用
+    index.html: 本应该是vue自带的默认模板，但是一开始没有生成，后来手动创建的，用来定义头信息，主要是title.
+
+
+.github/workflows/deploy.yml: 自动部署到 GitHub Pages 的工作流配置
+
+配置文件
+    vite.config.js: Vite 构建工具配置
+    package.json: 项目依赖和脚本配置
+    eslint.config.js: ESLint 代码检查配置
+    jsconfig.json: JavaScript 项目配置
+    .prettierrc.json: Prettier 代码格式化配置
